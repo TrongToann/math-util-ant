@@ -18,7 +18,7 @@ public class MathUtilDDTTest {
     public static Object[][] initData() {
 //        int a[] = {5, 10, 15, 20, 25} ;    // liệt kê các phần tử mảng 
 //        int b[][] = {{1,0},{1,1},{2,2},{6,3},{24,4},{120,5},{720,6}} ;
-        return new Integer[][] {{1,0},{1,1},{2,2},{6,3},{24,4},{120,5},{7020,6}} ;
+        return new Integer[][] {{1,0},{1,1},{2,2},{6,3},{24,4},{120,5},{720,6}} ;
     }
     //ta sẽ map/ánh xạ các cột của mỗi dòng, ví dụ dòng đầu tiên
     //có 2 cột là 1 0 -> ta sẽ ánh xạ 1 vào biến expected, 0 vào biến n
