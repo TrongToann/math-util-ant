@@ -68,6 +68,9 @@ public class MathUtilTest {
         System.out.println("Hope to see the Expected| Illegal Argument Exception"); 
         MathUtil.getFactorial(-5) ; 
     }
+         
+         
+         
     
 }
 //CLASS này dev sẽ viêt những câu lệnh dùng để test hàm 
