@@ -25,16 +25,13 @@ public class MathUtil {
             throw new IllegalArgumentException("Invalid n. n must be between 0..20");
 
         }
-        if (n == 0 || n == 1) {
+        if ( n == 1 || n == 0) {
             return 1;
         }
         // sống sót đến đât, sure n = 2..20!! 
         //CẤM KO SÀI ELSE KHI HÀM ĐÃ CÓ RETURN PHÍA TRƯỚC
-        long product = 1; // biến cộng dồn, nhân dồn, biến con heo đất (accumulation/ gửi góp)
-        for (int i = 2; i <= n; i++) {
-            product *= i;
-        }
-        return product;
+        
+        return n * getFactorial(n - 1); 
     }
 }
 //CODING CONVENTION : quy tắc viết code cty đưa đẻ ép phải theo !!!
